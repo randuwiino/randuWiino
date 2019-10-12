@@ -38,7 +38,7 @@ void loop() {
 
 	long duration, distance; // start the scan
   	digitalWrite(A0, LOW);  
-  	delayMicroseconds(2);     // delays are required for a succesful sensor operation.
+  	delayMicroseconds(2);    // delays are required for a succesful sensor operation.
   	digitalWrite(A0, HIGH);
 
   	delayMicroseconds(10);   //this delay is required as well!
