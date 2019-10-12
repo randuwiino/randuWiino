@@ -1,7 +1,6 @@
 // Branch v1.1
 // Working version without servo sweep
-// Edited using Visual Studio Code
-// Integrated with Arduino
+// Visual Studio Code Integrated with Arduino
 
 #include <Servo.h>
 
