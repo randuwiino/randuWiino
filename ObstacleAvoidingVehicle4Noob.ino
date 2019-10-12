@@ -1,4 +1,5 @@
-//Working version without servo sweep
+// This is the master
+// Working version without servo sweep
 
 #include <Servo.h>
 
