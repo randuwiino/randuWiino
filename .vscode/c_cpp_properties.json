@@ -3,6 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
+                "/home/xbob/Downloads/arduino-1.8.10/tools/**",
+                "/home/xbob/Downloads/arduino-1.8.10/hardware/arduino/avr/**",
                 "${workspaceFolder}/**",
                 "/home/xbob/RanduGit/libraries/Adafruit-Motor-Shield-library-master/**",
                 "/home/xbob/RanduGit/libraries/Servo-master/src/**"
@@ -11,7 +13,10 @@
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "clang-x64",
+            "forcedInclude": [
+                "/home/xbob/Downloads/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ]
         }
     ],
     "version": 4
