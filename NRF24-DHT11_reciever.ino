@@ -16,17 +16,15 @@ void setup() {
 
   // Check if a transmitter is detected
   if (!radio.isChipConnected()) {
-    Serial.println("Transmitter not detected!");
+    Serial.println("Transmitter NOT detected at initialization!");
   } else {
-    Serial.println("Transmitter detected.");
+    Serial.println("Transmitter DETECTED at initilaization.");
   }
 }
 
 void loop() {
   if (!radio.isChipConnected()) { // Check if the transmitter is not detected
     Serial.println("Transmitter not detected!");
-    delay(1000); // Delay before checking again
-    return;
   }
 
   if (!radio.available()) { // Check if there is no data available to receive
